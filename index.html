@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Chat box</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <nav class="box col-xs-2 col-sm-2 col-lg-1">
+        <ul class="nav">
+
+        <li>
+        <img class="img-responsive" src="img/home.png">
+        <button>
+        	<a href="#" onclick="">Home Home</a>    
+        </button>
+        </li><br>
+            
+        <li>
+        <img class="img-responsive img-full" src="img/home.png">
+        <button> 
+        	<a Href="#" onclick="">Quienes somos</a>    
+        </button>    
+        </li><br>
+            
+        <li>
+        <img class="img-responsive img-full" src="img/home.png">
+        <button> 
+        	<a Href="#" onclick="">Quien es Newroton</a>       
+        </button>    
+        </li><br>
+            
+        <li>
+        <img class="img-responsive img-full" src="img/home.png">
+        <button>
+        	<a Href="#" onclick="">Contactenos</a>    
+        </button> 
+        </li><br>
+          
+        </ul>        
+    </nav>
+
+
+    <div class="chat-box fixed-positioning">
+
+        <div class="chat-header">
+            <span>Chat, estamos en linea!!</span>
+            <button>Mostrar</button>
+        </div>
+
+        <div class="chat-contenido">  
+            <form action="javascript:void(0)" class="chat-form">
+                
+                <div class="chatlogs">
+                    <div class="chat friend">
+                        <div class="user-photo"><img src="img/newroton perfil.jpg"></div>
+                        <p class="chat-message">Hola, soy Newroton, cual es tu nombre?</p>
+                    </div>
+                    <div class="chat self">
+                        <div class="user-photo"><img src="img/andrea.PNG"></div>
+                        <p class="chat-message">Andrea</p>
+                    </div>                
+                </div>
+
+                <div>
+                    <label for="message">Mensaje<span>*</span></label>
+                    <textarea name="message" id="message"></textarea>
+                </div><br>
+                <button type="submit">Enviar mensaje</button>
+
+            </form>     
+        </div>
+
+    </div>
+
+    <script src="myJS/control.js"></script>
+</body>
+</html>    
