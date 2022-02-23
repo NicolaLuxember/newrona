@@ -2,6 +2,8 @@ let chatBox = document.querySelector(".chat-box");
 let toggleButton = document.querySelector(".chat-header button")
 let chatContent = document.querySelector(".chat-contenido");
 
+
+
 toggleButton.addEventListener('click', () => {
   if (chatContent.style.maxHeight){
     chatContent.style.maxHeight = null;
